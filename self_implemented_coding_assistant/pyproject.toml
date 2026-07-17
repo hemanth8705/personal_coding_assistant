@@ -1,0 +1,19 @@
+[project]
+name = "pi"
+version = "0.1.0"
+description = "Pi — Python AI coding agent"
+requires-python = ">=3.11"
+dependencies = [
+    "google-genai>=1.74.0",
+    "openai>=1.0.0",
+    "python-dotenv>=1.2.2",
+    "requests>=2.31.0",
+    "rich>=13.0.0",
+]
+
+[tool.uv]
+package = true
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
